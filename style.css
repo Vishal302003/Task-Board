@@ -220,3 +220,16 @@ header p {
     }
 
 }
+
+/* Overall page layout using CSS Grid */
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+main > section {
+    margin-top: 0;
+}
