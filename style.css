@@ -221,7 +221,7 @@ header p {
 
 }
 
-/* Overall page layout using CSS Grid */
+
 main {
     display: grid;
     grid-template-columns: 1fr;
